@@ -22,6 +22,7 @@ namespace Project.Domain.Entities
             Id = Guid.NewGuid();
             Name = name;
             Email = email;
+
         }
 
         public void Update(string name, string email)
