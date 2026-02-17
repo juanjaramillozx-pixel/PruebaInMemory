@@ -21,7 +21,7 @@ namespace Project.Domain.Entities
         {
             Id = Guid.NewGuid();
             Name = name;
-            Email = email;
+            Email1 = email;
 
         }
 
